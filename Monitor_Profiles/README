@@ -1,0 +1,12 @@
+# 在此目录下创建你想要的显示器配置文件
+# 创建一个独特的文件名，如 Mirror、Office、Scale 等
+# 提示：你可以使用 nwg-displays 轻松创建配置文件
+# 用 nwg-displays 创建配置文件后，将 ~/.config/hypr/monitors.conf 复制到本目录，并赋予一个独特的文件名
+# 建议不要将其命名为 default
+
+# 注意：通过 Rofi（快捷键 SUPER SHIFT E）
+#选择所需的配置文件后，原先的 ~/.config/hypr/monitors.conf
+#会被备份并命名为 Previous_Profile.conf
+
+# 显示器配置文件一旦通过 KooL Rofi 设置菜单选定，应该会自动加载，除非你在 Hyprland 设置中禁用了自动重载功能。
+# 但如果配置没有加载，请注销然后重新登录。这种情况在使用虚拟机时尤为明显。
