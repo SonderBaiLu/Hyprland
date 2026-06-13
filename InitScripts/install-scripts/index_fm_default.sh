@@ -17,8 +17,8 @@ LOG="Install-Logs/install-$(date +%d-%H%M%S)_index-default.log"
 
 printf "${INFO} 正在将 ${SKY_BLUE}Index${RESET} 设为默认文件管理器...\n"
 
-xdg-mime default index-fm.desktop inode/directory
-xdg-mime default index-fm.desktop application/x-wayland-gnome-saved-search
+xdg-mime default org.kde.index.desktop inode/directory
+xdg-mime default org.kde.index.desktop application/x-wayland-gnome-saved-search
 echo "${OK} ${MAGENTA}Index${RESET} 已成功设为默认文件管理器。" | tee -a "$LOG"
 
 printf "\n%.0s" {1..2}

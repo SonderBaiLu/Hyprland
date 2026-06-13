@@ -20,9 +20,6 @@ hypr_package=(
   jq
   kvantum
   libspng
-  neovim
-  fish
-  index-fm
   alacritty
   network-manager-applet 
   pamixer 
