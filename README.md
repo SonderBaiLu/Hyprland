@@ -22,3 +22,7 @@ chmod +x init.sh
 2. 自动精装：后台会瞬间触发 initial-boot.sh，全自动帮你把当前壁纸送进 wallust 提取配色、渲染 Rofi 主题，并配置好深色模式、GTK 主题和光标。
 3. 防线巩固：Startup_Apps.conf 启动，最后一次在后台静默检查 ~/.config/mimeapps.list，确保 Index 永久稳固地接管全局文件夹打开请求。
 4. 生成标记：创建标记文件，脚本功成身退，以后开机再也不会重复运行。
+
+# 更新
+- 时间： 2026-6-17
+删除rofi 改用 QMS 的应用启动器 和 剪切板
